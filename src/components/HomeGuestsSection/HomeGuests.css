@@ -1,0 +1,7 @@
+.recommendations__list {
+  display: flex;
+  margin-top: 106px;
+  justify-content: space-around;
+  padding-bottom: 120px;
+  position: relative;
+}

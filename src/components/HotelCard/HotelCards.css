@@ -1,0 +1,37 @@
+.recommendations__list li {
+  width: 24.8%;
+}
+.recommendations__list li img {
+  margin-bottom: 24px;
+  max-width: 100%;
+  display: block;
+}
+.recommendations__list a {
+  color: #3077c6;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.recommendations__list p {
+  color: #bfbfbf;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+}
+.recommendations__list::after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background-image: url(/src/img/css_sprites--arrows.png);
+  background-position: -34px 1px;
+  background-color: #f3f3f4;
+  border-radius: 100%;
+  position: absolute;
+  box-shadow: 0 3px 7px #707070;
+  top: 25%;
+  right: -1%;
+  cursor: pointer;
+  transition: 0.3s linear;
+  transform: scale(1.2);
+}
